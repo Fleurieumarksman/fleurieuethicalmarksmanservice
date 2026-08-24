@@ -86,3 +86,17 @@
   .field-gallery img { height: 240px; }
   .species-card.with-image > img { height: 240px; }
 }
+
+/* Pest Information dropdown usability fix */
+.dropdown-content{
+  top:100%;
+  left:-18px;
+}
+.dropdown-content::before{
+  content:'';
+  position:absolute;
+  left:0;
+  right:0;
+  top:-12px;
+  height:12px;
+}
