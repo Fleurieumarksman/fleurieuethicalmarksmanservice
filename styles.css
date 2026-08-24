@@ -100,3 +100,19 @@
   top:-12px;
   height:12px;
 }
+/* Mobile Pest Information heading - final fix */
+@media (max-width: 920px) {
+  .dropdown .dropbtn {
+    display: block !important;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 0 14px !important;
+    margin: 0 !important;
+    cursor: default;
+  }
+
+  .dropdown-content {
+    margin-top: 0 !important;
+  }
+}
